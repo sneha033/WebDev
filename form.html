@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend><b>Details</b></legend>
+        Name : <input type="text" placeholder="Please enter your name" name="name">
+        <br><br>
+        Address : <textarea name="Address"></textarea>
+        <br><br>
+        Gender : Female<input type="radio" value="f" name="gender"> 
+        Male<input type="radio" value="m" name="gender">
+        <br><br>
+        Age : <input type="number" name="age">
+        <br><br>
+        City: <select>
+            <option>Please select city</option>
+            <optgroup label="Maharshtra">
+                <option value="Mumbai">Mumbai</option>
+                <option>Pune</option>
+            </optgroup>
+            <option>Delhi</option>
+            <option>Chennai</option>
+  
+        </select>
+
+        <br><br>Hobby :
+        <input type="checkbox" name="hobby[]">Dance
+        <input type="checkbox" name="hobby[]">Singing
+
+     
+        <br/><br/> <!--  / so that code doen't give error when running code-->
+        <h3>Upload file</h3>
+        <input type="file" name="image"/>
+
+        <br><br>
+        <input type="submit" value ="Send">
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+    </body>
+</html>
